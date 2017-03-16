@@ -12,7 +12,6 @@
 }
 */
 
-
 body {
   background-color: black;
   color: white;
@@ -23,7 +22,6 @@ body {
   border: 1px solid white;
 }
 
-
 h1 {
   border: 1px solid white;
   font-family: Fredericka the Great, cursive;
@@ -31,16 +29,14 @@ h1 {
   text-shadow: 0 0 50px lightblue;
 }
 
-
 h2 {
   font-family: Fredericka the Great, cursive;
   font-size: 25px;
 }
 
-
 h4 {
   font-family: Fredericka the Great, cursive;
-  font-size: 30px;
+  font-size: 40px;
   text-shadow: 0 0 50px lightblue;
 }
 
@@ -49,34 +45,28 @@ img {
   border-radius: 60%;
 }
 
-
 a {
   color: inherit;
   text-decoration: none !important;
 }
 
-
 .whole-page {
-
+  //none
 }
-
 
 .heading {
   margin-top: -30px;
 }
 
-
 .title {
   margin-bottom: -10px;
 }
 
-
 .sub-title {
-  margin-bottom: 50px;
+  //none
 }
 
-
-.top-square {
+.row {
   height: auto;
   display: -webkit-flex;
   display: flex;
@@ -84,84 +74,13 @@ a {
   margin-right: 20px;
 }
 
-.top-left {
+.item {
   width: 33.33%;
   margin-left: 10px;
   margin-right: 10px;
 }
-
-.top-middle {
-  width: 33.33%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.top-right {
-  width: 33.33%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
-.middle-square {
-  height: auto;
-  display: -webkit-flex;
-  display: flex;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.middle-left {
-  width: 33.33%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.middle-middle {
-  width: 33.33%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.middle-right {
-  width: 33.33%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
-
-.bottom-square {
-  height: auto;
-  display: -webkit-flex;
-  display: flex;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.bottom-left {
-  width: 33.33%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
-.bottom-middle {
-  width: 33.33%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
-.bottom-right {
-  width: 33.33%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
 
 .footer {
   margin-top: 30px;
-  height: 10%;
+  height: auto;
 }
